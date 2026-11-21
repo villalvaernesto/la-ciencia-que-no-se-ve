@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infografía interactiva | La ciencia que no se ve</title>
+  <meta name="description" content="Cómo funciona el sistema de recomendación de especialistas del CONICET, explicado en cinco pasos desplegables.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://villalvaernesto.github.io/la-ciencia-que-no-se-ve/infografia.html">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/estilos.css">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:title" content="Infografía interactiva | La ciencia que no se ve">
+  <meta property="og:description" content="Cómo funciona el sistema de recomendación de especialistas del CONICET, explicado en cinco pasos desplegables.">
+  <meta property="og:url" content="https://villalvaernesto.github.io/la-ciencia-que-no-se-ve/infografia.html">
+  <meta property="og:image" content="https://villalvaernesto.github.io/la-ciencia-que-no-se-ve/img/og-portada.png">
+  <script src="js/sitio.js" defer></script>
+</head>
+<body>
+  <a class="salto" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="cabecera">
+    <div class="contenedor cabecera__interior">
+      <a class="marca" href="index.html"><img src="img/logo.svg" alt="" width="44" height="44"><span>La ciencia que no se ve</span></a>
+      <p class="lema">IA en la gestión del CONICET</p>
+    </div>
+    <nav class="menu" aria-label="Navegación principal">
+      <ul class="contenedor">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="linea-de-tiempo.html">Línea de tiempo</a></li>
+        <li><a href="mapa-conceptual.html">Mapa CTS</a></li>
+        <li><a href="infografia.html" aria-current="page">Infografía</a></li>
+        <li><a href="podcast.html">Podcast</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="reflexion.html">Reflexión y ética</a></li>
+        <li><a href="fuentes.html">Fuentes</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido" class="contenedor">
+
+    <section aria-labelledby="titulo-info">
+      <h1 id="titulo-info">Infografía interactiva: cómo funciona el sistema</h1>
+      <p>El sistema de recomendación que usan las comisiones de la CICyT sigue cinco pasos. Hacé clic en cada uno para ver el detalle.</p>
+      <figure>
+        <img src="img/infografia-flujo.svg" alt="Cinco cuadros conectados por flechas: 1 datos de la postulación, 2 búsqueda general de afinidad, 3 refinamiento con modelo de lenguaje, 4 exclusión por conflicto de interés, 5 lista para la comisión." width="1000" height="230">
+        <figcaption>Resumen visual del proceso. El detalle está en los pasos desplegables.</figcaption>
+      </figure>
+    </section>
+
+    <section aria-labelledby="titulo-pasos">
+      <h2 id="titulo-pasos">Los cinco pasos</h2>
+      <ol class="pasos">
+        <li><details>
+          <summary>Datos de la postulación</summary>
+          <p>El sistema toma el plan de trabajo y los antecedentes de la persona que se postula, registrados en SIGEVA.</p>
+        </details></li>
+        <li><details>
+          <summary>Búsqueda general de afinidad</summary>
+          <p>Hace una comparación rápida de similitud semántica entre el perfil de la postulación y la producción de los especialistas del Banco de Pares Consultores.</p>
+        </details></li>
+        <li><details>
+          <summary>Refinamiento con modelo de lenguaje</summary>
+          <p>En una segunda etapa se analiza con más detalle el texto de las publicaciones para precisar qué tan bien se corresponden con la propuesta. Según la cobertura de Cadena 3 (2026), esta etapa usa un modelo de lenguaje.</p>
+        </details></li>
+        <li><details>
+          <summary>Exclusión por conflicto de interés</summary>
+          <p>El sistema aplica reglas para excluir a posibles evaluadores con incompatibilidades, por ejemplo directores, coautores o quienes trabajan en el mismo lugar.</p>
+        </details></li>
+        <li><details>
+          <summary>Lista preseleccionada para la comisión</summary>
+          <p>Las comisiones asesoras reciben un conjunto de especialistas con la mejor afinidad para cada postulación. La herramienta no decide: ofrece un insumo de apoyo y la elección sigue siendo humana.</p>
+        </details></li>
+      </ol>
+    </section>
+
+    <aside class="nota" aria-labelledby="titulo-critica">
+      <h2 id="titulo-critica">Una pregunta para pensar</h2>
+      <p>En cada paso se toman decisiones de diseño: qué se considera "afinidad", qué cuenta como conflicto de interés. ¿Quién las define y cómo podría revisarse una recomendación inadecuada? Seguí en <a href="reflexion.html">Reflexión y ética</a>.</p>
+    </aside>
+
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie__interior">
+      <p>© 2026 Proyecto integrador. ISFT N.º 130, Tecnicatura Superior en Análisis de Sistemas.</p>
+      <p>Materias: Prácticas Profesionalizantes y Ciencia, Tecnología y Sociedad. <a href="acerca.html">Acerca del proyecto</a></p>
+    </div>
+  </footer>
+</body>
+</html>
