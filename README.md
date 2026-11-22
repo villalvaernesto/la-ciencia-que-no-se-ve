@@ -32,13 +32,6 @@ la-ciencia-que-no-se-ve/
 
 No necesita servidor: abrir `index.html` con doble clic funciona, porque el sitio no usa `fetch`. Si se prefiere, se puede abrir la carpeta en Visual Studio Code con la extensión Live Server.
 
-## Publicación en GitHub Pages (opcional)
-
-1. Crear un repositorio público, por ejemplo `la-ciencia-que-no-se-ve`.
-2. Subir todo el contenido de esta carpeta, con `index.html` en la raíz del repositorio.
-3. En Settings, sección Pages, elegir publicar desde la rama principal (`main`), carpeta raíz. La interfaz puede cambiar: seguir la documentación oficial de GitHub Pages.
-4. Abrir `https://TU-USUARIO.github.io/la-ciencia-que-no-se-ve/` y probar enlaces, formularios y la página 404.
-
 ## Dónde se cumple cada requisito del enunciado
 
 | Requisito | Dónde |
@@ -60,5 +53,3 @@ No necesita servidor: abrir `index.html` con doble clic funciona, porque el siti
 - Estructura de las nueve páginas y la 404: un solo `h1`, identificadores sin repetir, todas las imágenes con `alt`, títulos únicos y ningún enlace interno roto.
 - Contraste de los colores principales calculado con la fórmula de WCAG: todos superan 4,5:1 para texto.
 - Sintaxis de `sitio.js` revisada con Node.
-
-**Pendientes del equipo:** recorrer el sitio solo con el teclado, probarlo en un celular real y en más de un navegador, y correr los validadores HTML y CSS del W3C.
